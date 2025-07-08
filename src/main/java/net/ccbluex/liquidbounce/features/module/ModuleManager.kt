@@ -40,6 +40,7 @@ object ModuleManager : Listenable, Collection<Module> by MODULE_REGISTRY {
             Aimbot,
             Ambience,
             Animations,
+            Animations2,
             AntiAFK,
             AntiBlind,
             AntiBot,
