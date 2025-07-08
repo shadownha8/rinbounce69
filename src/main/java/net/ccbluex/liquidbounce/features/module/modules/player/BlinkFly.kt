@@ -1,4 +1,4 @@
-package net.ccbluex.liquidbounce.features.module.modules.movement
+package net.ccbluex.liquidbounce.features.module.modules.player
 
 import net.ccbluex.liquidbounce.event.*
 import net.ccbluex.liquidbounce.features.module.Category
@@ -11,7 +11,7 @@ import net.minecraft.util.Vec3
 import org.lwjgl.opengl.GL11
 import java.awt.Color
 
-object BlinkFly : Module("BlinkFly", Category.MOVEMENT) {
+object BlinkFly : Module("BlinkFly", Category.PLAYER) {
 
     private val visibleLimit by int("VisibleBlocks", 4, 0..10)
 
